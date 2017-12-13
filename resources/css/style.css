@@ -1,0 +1,31 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  display: flex;
+  align-items: center;    /*vertically align items in the container */
+  width: 100%;
+}
+
+
+.logo{
+  border: 1 solid black;
+  display: flex;
+  align-items: center;  /*vertically align items in the container */
+  padding: 0 30px;
+}
+
+.logo span{
+  color: MediumAquamarine;
+  margin-left: 12px;
+}
+
+.hlinks{
+  color: black;
+}
+
+.hlinks span{
+  display: inline-block;
+  padding: 0 10px;
+}
