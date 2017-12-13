@@ -1,4 +1,4 @@
-header {
+.banner {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -8,10 +8,10 @@ header {
   width: 100%;
 }
 
-
 .logo{
-  border: 1 solid black;
+  border: thin solid black;
   display: flex;
+  flex: 1 0 100px;
   align-items: center;  /*vertically align items in the container */
   padding: 0 30px;
 }
@@ -28,4 +28,42 @@ header {
 .hlinks span{
   display: inline-block;
   padding: 0 10px;
+}
+
+.content{
+  border: thin solid black;
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 69px;
+}
+
+.column.large{
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+
+.column.medium{
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.column.small{
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+}
+
+p{
+  border: thin solid red;
+}
+
+#title{
+  font-size: 24px;
+  font-weight: bold;
 }
