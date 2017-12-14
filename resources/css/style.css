@@ -1,3 +1,49 @@
+/*p{
+  border: thin solid red;
+}*/
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;             /*horizontally align items in the container */
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  height: 300px;
+}
+
+.flinks{
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+}
+
+.flinks span{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.foot{
+  display: inline-flex;
+}
+
+.brand{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.symbol{
+  padding: 0 30px;
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
 .banner {
   font-family: Verdana;
   font-size: 14px;
@@ -14,9 +60,9 @@
 }
 
 .logo{
-  border: thin solid black;
+  /*border: thin solid black;*/
   display: flex;
-  flex: 1 0 100px;
+  flex: 1 0 auto;
   align-items: center;  /*vertically align items in the container */
   padding: 0 30px;
 }
@@ -36,16 +82,17 @@
 }
 
 .content{
-  border: thin solid black;
+  /*border: thin solid black;*/
   display: flex;
   flex-direction: row;
   padding-top: 69px;
   top: 10px;
   left: 0;
+  align-content: flex-start;
 }
 
 .column.large{
-  border: thin solid black;
+  /*border: thin solid black;*/
   display: flex;
   flex-direction: column;
   width: 630px;
@@ -53,8 +100,12 @@
   left: 0;
 }
 
+.column.large. div{
+  display: inline-flex;
+}
+
 .column.medium{
-  border: thin solid black;
+  /*border: thin solid black;*/
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -62,7 +113,7 @@
 }
 
 .column.small{
-  border: thin solid black;
+  /*border: thin solid black;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +122,7 @@
 }
 
 .passage {
+  display: flex;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -94,13 +146,29 @@
   color: white;
 }
 
-p{
-  border: thin solid red;
-}
-
 .title{
   font-size: 24px;
   font-weight: bold;
+}
+
+.newsbites p{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.newsitems p{
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  /*border-bottom: thin solid black;*/
+  height: 30px;
+  width: 240px;
+  align-items: center;
 }
 
 #p1{
